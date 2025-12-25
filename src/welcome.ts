@@ -166,8 +166,8 @@ let giriApi: GiriApiResponse<string> = { data: "User created", success: true };
 console.log("Q6:", giriApi);*/
 
 
-/*let greetGiri: (name: string) => string = (name) => `Hello ${name}`;
-console.log("Q7:", greetGiri("Giri"));*/
+let greetGiri: (name: string) => string = (name) => `Hello ${name}`;
+console.log("Q7:", greetGiri("Giri"));
 
 
 
