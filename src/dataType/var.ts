@@ -108,3 +108,21 @@ function wrap<T>(value: T): T[] {
 console.log(wrap("Giri"));
 */
 
+/*interface ApiResponse<T> {
+  status: number;
+  data: T;
+}
+let apiRes: ApiResponse<string> = {
+  status: 200,
+  data: "Success"
+};
+console.log(apiRes);
+*/
+/*function mergeObj<T, U>(a: T, b: U) {
+  return { ...a, ...b };
+}
+console.log(mergeObj({ name: "priya" }, { age: 26 }));
+*/
+
+let mixData: (string | number | boolean)[] = ["vijayan", 100, true];
+console.log(mixData);
