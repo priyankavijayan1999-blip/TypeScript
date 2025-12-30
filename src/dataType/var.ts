@@ -4,8 +4,30 @@ let tasks: { id: number; title: string; done: boolean }[] = [
   { id: 2, title: "Practice", done: true }
 ];
 console.log(tasks);
-/*
+*/
 
-enum Role { Admin = "ADMIN", User = "USER" }
-let giriRole: Role = Role.Admin;
-console.log(giriRole);
+/*enum Role { Admin = "ADMIN", User = "USER" }
+let priyaRole: Role = Role.Admin;
+console.log(priyaRole);
+*/
+
+/*let project = {
+  name: "Automation",
+  members: ["Priya", "dia"],
+  completed: false
+};
+console.log(project);*/
+
+/*var score = 50;
+if (true) {
+  var score = 80;
+}
+console.log(score);*/
+
+/*
+let rank = 10;
+if (true) {
+  let rank = 20;
+}
+console.log(rank);*/
+
