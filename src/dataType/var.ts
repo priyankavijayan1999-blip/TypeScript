@@ -71,5 +71,40 @@ let keys: (keyof Person)[] = ["name", "age"];
 keys.forEach((k) => console.log(k));
 */
 
+/*interface User {
+  readonly id: number;
+  name: string;
+}
+let u: User = { id: 1, name: "priya" };
+console.log(u);
+*/
 
+/*function printValue(v: number | string) {
+  if (typeof v === "string") {
+    console.log("String:", v);
+  } else {
+    console.log("Number:", v);
+  }
+}
+printValue("priya");
+*/
+
+/*let age = 25;
+
+if (typeof age === "number") {
+  console.log("Valid age");
+}
+*/
+/*
+function createUser(id: number, name: string) {
+  return { id, name };
+}
+console.log(createUser(1, "dia yadhira"));
+*/
+/*  
+function wrap<T>(value: T): T[] {
+  return [value];
+}
+console.log(wrap("Giri"));
+*/
 
