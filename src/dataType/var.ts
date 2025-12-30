@@ -31,3 +31,45 @@ if (true) {
 }
 console.log(rank);*/
 
+/*let priyaMap = new Map<string, number>();
+priyaMap.set("marks", 90);
+console.log(priyaMap);*/
+
+/*let priyaSet = new Set<string>();
+priyaSet.add("priya");
+priyaSet.add("dia");
+console.log(priyaSet);*/
+
+/*type Skills = string[];
+let priyaSkills: Skills = ["TS", "JS", "Node"];
+console.log(priyaSkills);*/
+
+/*interface Laptop {
+  brand: string;
+  price: number;
+}
+let lap:Laptop = { brand: "Dell", price: 50000 };
+console.log(lap);
+*/
+
+/*interface Laptop {
+  brand: string;
+  price: number;
+}
+let lap: Partial<Laptop> = { brand: "Dell" };
+console.log(lap);*/
+
+/*type Person = { name: string; age: number };
+let key: keyof Person = "name";
+console.log(key);
+*/
+
+/*type Person = { name: string; age: number };
+
+let keys: (keyof Person)[] = ["name", "age"];
+
+keys.forEach((k) => console.log(k));
+*/
+
+
+
