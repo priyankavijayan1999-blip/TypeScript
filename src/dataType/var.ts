@@ -124,5 +124,34 @@ console.log(apiRes);
 console.log(mergeObj({ name: "priya" }, { age: 26 }));
 */
 
-let mixData: (string | number | boolean)[] = ["vijayan", 100, true];
-console.log(mixData);
+/*let mixData: (string | number | boolean)[] = ["vijayan", 100, true];
+console.log(mixData);*/
+/*
+let tasks: { id: number; title: string; done: boolean }[] = [
+  { id: 1, title: "Learn TS", done: false },
+  { id: 2, title: "Practice", done: true }
+];
+console.log(tasks);
+*/
+/*function calculate(a: number, b: number) {
+  const sum = a + b;
+  let result = sum * 2;
+  return result;
+}
+console.log(calculate(10, 20));
+*/
+
+/*let empData: { name: string; address: { city?: string } | null } = {
+  name: "priya",
+  address: null
+};
+console.log(empData.name);*/
+
+/*
+let nullableInfo: string | null = null;
+let info = nullableInfo ?? "Default Value";
+console.log(info);*/
+
+let code: any = "123";
+let numValue = code as string;
+console.log(numValue);
