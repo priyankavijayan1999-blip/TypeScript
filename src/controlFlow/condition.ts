@@ -143,6 +143,7 @@ for (let num = 2; num <= 100; num++) {
     }
 }
 */
+/*
 const user = { name: "Alice", age: 25, city: "Delhi", active: true };
 
 for (let key in user) {
@@ -150,3 +151,91 @@ for (let key in user) {
         console.log(`${key}: ${user[key as keyof typeof user]}`);
     }
 }
+*/
+
+/*
+function isStrong(password: string): boolean {
+    const hasUpper = /[A-Z]/.test(password);
+    const hasLower = /[a-z]/.test(password);
+    const hasNum   = /\d/.test(password);
+    const hasSpec  = /[!@#$%^&*]/.test(password);
+    return password.length >= 8 && hasUpper && hasLower && hasNum && hasSpec;
+}
+console.log(isStrong("Aa1@abcd")); // true
+
+*/
+
+/*
+const actions = ["1", "1", "3", "2", "4"]; // simulate choices
+let nums: number[] = [];
+let step = 0;
+let choice: string|undefined;
+
+do {
+    choice = actions[step++];
+    console.log(`Choice: ${choice}`);
+
+    switch (choice) {
+        case "1": // Add a number
+            nums.push(step * 10);
+            break;
+        case "2": // Remove first number if exists
+            nums.shift();
+            break;
+        case "3": // Display
+            console.log("Numbers:", nums);
+            break;
+    }
+} while (choice !== "4");
+
+console.log("Program Ended");
+*/
+/*
+const inputs = ["apple", "banana", "exit"];
+let index = 0;
+let userInput: string|undefined;
+
+do {
+    userInput = inputs[index++];
+    console.log("User typed:", userInput);
+} while (userInput?.toLowerCase() !== "exit");
+
+console.log("Exited loop");
+*/
+/*
+type NestedArray = (number | NestedArray)[];
+
+function flatten(arr: NestedArray): number[] {
+    let result: number[] = [];
+    for (let item of arr) {
+        if (Array.isArray(item)) result = result.concat(flatten(item));
+        else result.push(item);
+    }
+    return result;
+}
+console.log(flatten([1, [2, [3, 4]], 5]));
+*/
+/*
+const steps = ["1", "1", "3", "2", "4"]; // simulate user steps
+let inventory: string[] = [];
+let s = 0;
+let option: string|undefined;
+
+do {
+    option = steps[s++];
+    console.log(`Option: ${option}`);
+
+    switch (option) {
+        case "1":
+            inventory.push("Item" + s);
+            break;
+        case "2":
+            inventory.pop();
+            break;
+        case "3":
+            console.log("Inventory:", inventory);
+            break;
+    }
+} while (option !== "4");
+console.log("Inventory program ended");
+*/
