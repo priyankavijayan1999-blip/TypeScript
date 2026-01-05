@@ -247,25 +247,4 @@ for (let i = arr.length - 1; i >= 0; i--) {
 }
 console.log(reversed);
 */
-/*
-let result = "";
-
-for (let ch of ["A","B","C","D","E","F"]) {
-    result += ch + " ";
-    console.log(result.trim());
-}
-*/
-export {};
-
-let rows = 6;
-
-for (let i = 0; i < rows; i++) {
-    let line = "";
-
-    for (let j = 0; j <= i; j++) {
-        line += String.fromCharCode(65 + j) + "  ";
-    }
-
-    console.log(line.trim());
-}
 
