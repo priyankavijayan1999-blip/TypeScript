@@ -136,6 +136,19 @@ myNumbers.shift();
 console.log("17:", myNumbers);
 */
 //18)Array map//
-let myNumbers = [1, 2, 3, 4];
+/*let myNumbers = [1, 2, 3, 4];
 let squared = myNumbers.map(n => n * n);
 console.log("18:", squared);
+*/
+//19)filter example//
+/*
+let myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let evens = myNumbers.filter(n => n % 2 === 0);
+console.log("19:", evens);
+*/
+//20)Reduce example//
+/*
+let myNumbers:number[] = [1, 2, 3, 4, 5];
+let sumAll = myNumbers.reduce((acc, val) => acc + val, 0);
+console.log("20:", sumAll);
+*/
