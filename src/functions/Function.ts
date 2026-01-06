@@ -177,7 +177,9 @@ let obj = JSON.parse(jsonStr);
 console.log("24:", obj);
 */
 //25)async function //
+/*
 async function fetchData() {
   return "Data loaded!";
 }
 fetchData().then(data => console.log("25:", data));
+*/
