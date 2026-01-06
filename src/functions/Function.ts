@@ -152,3 +152,32 @@ let myNumbers:number[] = [1, 2, 3, 4, 5];
 let sumAll = myNumbers.reduce((acc, val) => acc + val, 0);
 console.log("20:", sumAll);
 */
+//21)find example //
+/*
+let myNumbers: number[] = [1, 2, 3, 4, 5];
+let found = myNumbers.find(n => n > 2);
+console.log("21:", found);
+*/
+//22)object key-value//
+/*
+let userPerson = { name: "John", age: 25 };
+console.log("22:", userPerson);
+*/
+//23)updated object key-value//
+/*
+let userPerson = { name: "priyanka", age: 26 };
+userPerson.age = 26;
+console.log("23:", userPerson);
+*/
+//24)JSON stringify and parse//
+/*
+let jsonStr = JSON.stringify(userPerson);
+console.log("24:", jsonStr);
+let obj = JSON.parse(jsonStr);
+console.log("24:", obj);
+*/
+//25)async function //
+async function fetchData() {
+  return "Data loaded!";
+}
+fetchData().then(data => console.log("25:", data));
