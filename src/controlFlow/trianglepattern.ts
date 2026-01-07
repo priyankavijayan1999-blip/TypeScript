@@ -24,8 +24,9 @@ for (let i = 0; i < rows; i++) {
     let line = "";
 
     for (let j = 0; j <= i; j++) {
-        line += String.fromCharCode(65 + j) + "  ";
+        line += String.fromCharCode(65 + j) + " ";
     }
 
     console.log(line.trim());
+    console.log(line.length);
 }
