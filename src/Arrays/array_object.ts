@@ -37,3 +37,30 @@ console.log(employeeNames);                                                     
 
 //find by role//
 
+export {};
+
+type Employee = {
+  id: number;
+  name: string;
+  role: string;
+  active: boolean;
+};
+
+let employees: Employee[] = [
+  { id: 1, name: "Priya", role: "Tester", active: true },
+  { id: 2, name: "Dia", role: "Developer", active: false },
+  { id: 3, name: "Yadhira", role: "Manager", active: true }
+];
+
+// get active employees
+let activeEmployees = employees.filter(emp => emp.active);
+
+// get employee names
+let employeeNames = employees.map(emp => emp.name);
+
+// find manager
+let manager = employees.find(emp => emp.role === "Manager");
+
+console.log("Active Employees:", activeEmployees);
+console.log("Employee Names:", employeeNames);
+console.log("Manager:", manager);
