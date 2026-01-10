@@ -62,5 +62,6 @@ let employeeNames = employees.map(emp => emp.name);
 let manager = employees.find(emp => emp.role === "Manager");
 
 console.log("Active Employees:", activeEmployees);
+
 console.log("Employee Names:", employeeNames);
 console.log("Manager:", manager);
